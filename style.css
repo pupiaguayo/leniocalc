@@ -21,8 +21,8 @@ body {
   width: 28.125em;
 }
 .result {
-  width: 22em;
-  height: 4em;
+  width: 21.5em;
+  height: 3em;
   background-color: #f3fbec;
   outline: none;
   border: none;
@@ -31,6 +31,7 @@ body {
   align-items: center;
   font-size: 1.25em;
   font-weight: bold;
+  padding: 6px;
 }
 .buttonsRows input {
   margin: auto 0.3125em;

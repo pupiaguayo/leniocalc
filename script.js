@@ -20,5 +20,6 @@ function calcular() {
 
 function cleanDisplay() {
   display.value = "";
+  image.src = "./img/my-leni (1).png";
 }
 containerImage.appendChild(image);
