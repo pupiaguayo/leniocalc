@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #71cd7b;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  background-color: #a9cfe7;
+  width: 31.25em;
+  height: 34.375em;
+}
+
+.buttonsRows {
+  display: flex;
+  justify-content: space-between;
+  width: 28.125em;
+}
+.result {
+  width: 22em;
+  height: 4em;
+  background-color: #f3fbec;
+  outline: none;
+  border: none;
+  box-shadow: 0 0.4375em 0.1875em #617785;
+  display: flex;
+  align-items: center;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.buttonsRows input {
+  margin: auto 0.3125em;
+  height: 2.8125em;
+  width: 4.0625em;
+  outline: none;
+  border: none;
+  box-shadow: 0 0.4375em 0.1875em #617785;
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+.operator {
+  background-color: #f2fea0;
+}
+.delete {
+  background-color: #f0a3aa;
+}
+.buttonsRows input:hover {
+  height: 3em;
+  width: 4.25em;
+  cursor: pointer;
+}
+img {
+  height: 40vh;
+  width: auto;
+  margin: auto;
+  animation: leni 2s infinite;
+}
+@keyframes leni {
+  25% {
+    transform: translateY(2vh);
+  }
+}
+/*MEDIA QUERIES 995PX*/
+@media (max-width: 995px) {
+  body {
+    font-size: 14px;
+  }
+}
+/*MEDIA QUERIES 767PX*/
+@media (max-width: 767.98px) {
+  body {
+    font-size: 12px;
+  }
+}
+/*MEDIA QUERIES 575PX*/
+@media (max-width: 575.98px) {
+  body {
+    font-size: 10px;
+  }
+}

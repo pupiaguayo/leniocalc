@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/9tShr9T/1486564177-finance-finance-calculator-81497.png" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Calculator for Leniolabs Bootcamp" />
+    <meta property="og:image" content=img src="https://i.ibb.co/9tShr9T/1486564177-finance-finance-calculator-81497.png"  />
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Leniolabs Bootcamp</title>
+</head>
+<body>
+    <main>
+        <div class="form">
+            <input  class="result" type="text" placeholder="0" id="screen-result">
+            <div class="buttonsRows">
+                <input type="button" value="1" onclick="getNumber(this)"></input>
+                <input  type="button" value="2"onclick="getNumber(this)"></input>
+                <input  type="button" value="3" onclick="getNumber(this)"></input>
+                <input  type="button" class="operator" value="+" onclick="getNumber(this)"></input>
+            </div>
+            <div class="buttonsRows">
+                <input  type="button" value="4" onclick="getNumber(this)"></input>
+                <input   type="button" value="5" onclick="getNumber(this)"></input>
+                <input  type="button" value="6" onclick="getNumber(this)"></input>
+                <input  type="button" class="operator" value="-" onclick="getNumber(this)"> </input>
+            </div>
+            <div class="buttonsRows">
+                <input  type="button" value="7" onclick="getNumber(this)"></input>
+                <input  type="button" value="8" onclick="getNumber(this)"></input>
+                <input   type="button" value="9" onclick="getNumber(this)"></input>
+                <input  type="button" class="operator" value="*" onclick="getNumber(this)"></input>
+            </div>
+            <div class="buttonsRows">
+                <input  type="button" class="delete" value="C" onclick="cleanDisplay()"></input>
+                <input type="button" value="0" onclick="getNumber(this)"></input>
+                <input type="button" value="=" onclick="calcular()"></input>
+                <input  type="button" class="operator" value="/" onclick="getNumber(this)"></input>
+            </div>
+        </div>
+        <div id="image"> 
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
